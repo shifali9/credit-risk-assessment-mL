@@ -1,19 +1,32 @@
- # Intelligent Credit Risk Assessment System
-This project predicts loan default risk using Machine Learning techniques.
-Machine Learning project for credit risk prediction 
+# Intelligent Credit Risk Assessment System
 
-# Dataset
-German Credit Dataset(kaggle)
-Link: https://www.kaggle.com/datasets/uciml/german-credit 
+This project predicts whether a person is risky for giving a loan using Machine Learning.
 
-# Model used
-Logistic Regression
-Random Forest Classifier
+## Objective
+To classify customers as low or high credit risk based on their details.
 
-# Results
-- Logistic Regression Accuracy: ~74%
-- Random Forest Accuracy: ~72%
-- ROC-AUC Score: ~0.79
+## Dataset
+German Credit Dataset  
+Link: https://www.kaggle.com/datasets/uciml/german-credit
 
-# Conclusion
-This model helps in identifying risky loan applicants, enabling financial institutions to make better lending decisions.
+## Features Used
+- Age
+- Sex
+- Job
+- Housing
+- Saving accounts
+- Checking account
+- Credit amount
+- Duration
+- Purpose
+
+## Models Used
+- Logistic Regression
+- Random Forest
+
+## Evaluation
+- ROC-AUC Score used for performance
+- Model achieved very high accuracy
+
+## Conclusion
+The model successfully predicts credit risk. Random Forest performed better and gave highly accurate results.
