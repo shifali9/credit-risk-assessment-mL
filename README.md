@@ -11,16 +11,16 @@ Link: https://www.kaggle.com/datasets/uciml/german-credit
 
 ## Project Structure
 
-credit-risk-assessment-ML/
-│
-├── Credit_Risk_model.ipynb # Data preprocessing, training & evaluation
-├── app.py # Streamlit web application
-├── risk_predictor.py # CLI based Prediction logic
-├── model.pkl # Trained model
-├── german_credit_data.csv # Dataset
-└── README.md # Documentation
+- **Credit_Risk_model.ipynb** — Data preprocessing, training & evaluation  
+- **app.py** — Streamlit web application  
+- **risk_predictor.py** — Prediction logic  
+- **model.pkl** — Trained model  
+- **german_credit_data.csv** — Dataset  
+- **README.md** — Documentation  
 
 ## How to Run
+
+Follow the steps below to run the Streamlit web application.
 
 ### Requirements
 - Python 3.x
@@ -28,8 +28,7 @@ credit-risk-assessment-ML/
 
 ### Steps
 
-1. Clone the repository:
-   git clone https://github.com/shifali9/credit-risk-assessment-ML.git
+1. Open Command Prompt
 
 2. Navigate to the project folder:
    cd credit-risk-assessment-ML
