@@ -13,12 +13,12 @@ Link: https://www.kaggle.com/datasets/uciml/german-credit
 
 credit-risk-assessment-ML/
 │
-├── Credit_Risk_model.ipynb   # Data preprocessing, training & evaluation
-├── app.py                    # Web application interface
-├── risk_predictor.py         # CLI-based prediction tool
-├── model.pkl                 # Saved trained model
-├── german_credit_data.csv    # Input dataset
-├── README.md                 # Documentation
+├── Credit_Risk_model.ipynb # Data preprocessing, training & evaluation
+├── app.py # Streamlit web application
+├── risk_predictor.py # CLI based Prediction logic
+├── model.pkl # Trained model
+├── german_credit_data.csv # Dataset
+└── README.md # Documentation
 
 ## How to Run
 
